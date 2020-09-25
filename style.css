@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 
-html{
-  font-size: 10px:
+html {
+  font-size: 10px;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -15,21 +15,22 @@ body{
   height: 100vh;
 }
 
-body, html{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body,
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.container{
-  width: 600px;
+.container {
+  width: 500px;
   height: 600px;
-  background-color: #d6ece3; 
+  background-color: #d6ece3;
   border-radius: 4px;
   padding: 32px;
 }
 
-.frame{
-  border: 1px solid #484848;
+.frame {
+  border: 2px solid#9aefd9;
   height: 100%;
 }
