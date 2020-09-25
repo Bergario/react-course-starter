@@ -41,6 +41,9 @@ html {
 .frame {
   border: 2px solid#9aefd9;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
@@ -65,6 +68,14 @@ html {
   outline: unset;
   border: unset;
   cursor: pointer;
+}
+
+.header-btn:active {
+  text-shadow: 1px 1px 2px black;
+}
+
+.header-btn.main-red-color:active {
+  text-shadow: 1px 1px 2px var(--main-red-color);
 }
 
 .add {
@@ -97,4 +108,30 @@ html {
   outline: unset;
   border: unset;
   background: unset;
+}
+
+.add-btn:active {
+  text-shadow: 1px 1px 2px black;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo {
+  position: relative;
+  flex: 1 0 auto;
+  text-align: center;
+  min-height: 34px;
+  margin: 0 0 16px;
+  font-family: "homemade apple", sans-serif;
+  font-size: 2.4rem;
+  border-bottom: 1px solid var(--main-red-color);
+}
+
+.todo-text {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
